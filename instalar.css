@@ -1,0 +1,11 @@
+.instalar-area { display: flex; justify-content: flex-end; }
+.instalar-botao { min-height: 40px; padding: 8px 14px; border: 1px solid #059669; border-radius: 12px; color: #047857; background: #ecfdf5; font-size: 14px; font-weight: 600; cursor: pointer; }
+.dark .instalar-botao { color: #a7f3d0; background: #064e3b; }
+.instalar-botao:focus-visible, #instalar-fechar:focus-visible { outline: 3px solid #34d399; outline-offset: 2px; }
+#instalar-dialogo { border: 1px solid #d1d5db; border-radius: 20px; padding: 24px; margin: auto; width: min(90vw, 390px); color: #1e293b; background: #fff; box-shadow: 0 8px 30px #0005; }
+#instalar-dialogo::backdrop { background: #000a; }
+.dark #instalar-dialogo { color: #f1f5f9; background: #0f172a; border-color: #334155; }
+#instalar-dialogo h2 { font-size: 20px; font-weight: 700; margin: 0 0 12px; }
+#instalar-dialogo p { font-size: 15px; line-height: 1.5; white-space: pre-line; margin: 0 0 20px; }
+#instalar-fechar { min-height: 44px; padding: 8px 18px; border: 0; border-radius: 12px; background: #059669; color: white; font-weight: 600; cursor: pointer; }
+.instalar-area[hidden] { display: none; }
